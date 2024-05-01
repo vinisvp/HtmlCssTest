@@ -1,17 +1,29 @@
 body{
     background-color: #CCCCCC;
-    padding-inline: 20%;
 }
 
 .countainer{
     color: #FFF;
     background: linear-gradient(#1D0C20, #641F70);
-    padding: 0.5rem;
+    margin: auto;
+    width: 700px;
+    padding-inline: 1.5rem;
+    padding-top: 0.001rem;
+    padding-bottom: 0.001rem;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.countainer h1{
+    color: #F3C923;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .vote-box{
     background: linear-gradient(#641F70, #1D0C20);
-    padding: 0.5rem;
+    padding-inline: 0.5rem;
+    padding-top: 0.25rem;
 }
 
 .row{
@@ -23,4 +35,9 @@ body{
     width: 100%;
     padding: 1rem;
     margin: 1rem;
+    font-weight: 500;
+}
+
+image{
+    text-align: center;
 }
