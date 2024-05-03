@@ -41,3 +41,31 @@ body{
 image{
     text-align: center;
 }
+
+input{
+    width: 75%;
+    margin-bottom: 1rem;
+    border: 0;
+    border-radius: 5px;
+    padding: 0.50rem;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px #1D0C20;
+}
+
+button{
+    color: #FFF;
+    background-color: #1D0C20;
+    width: 65%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #641F70;
+}
